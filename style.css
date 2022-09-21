@@ -6,12 +6,22 @@
     box-sizing: border-box;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+  }
+
 body {
-    background: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
+#all_wrapper {
+    width: 100%;
+}
+
 .section_wrapper {
+    width: 100%;
+    height: 100vh;
     display: flex;
     background-image: linear-gradient(to top, #e0f0fd, #ffffff);
 }
@@ -33,11 +43,17 @@ a{
     max-width: 220px;
 }
 
+.navbar_hamburger {
+    max-width: 35px;
+    padding-top: 0px;
+}
+
 .nav-bar {
     display: flex;
     gap: 20px;
     justify-content: flex-start;
-    padding: 50px;
+    align-items: center;
+    padding: 25px;
 }
 
 
@@ -68,6 +84,10 @@ a{
     width: 35%;
 }
 
+.section_2 {
+    width: 65%;
+}
+
 .container_2 {
     display: flex;
     align-items: center;
@@ -75,8 +95,9 @@ a{
     border-bottom-left-radius: 80%;
     border-bottom-right-radius: 50%;
     background-color: #ffffff !important;
-    height: 80vh;
     min-width: 900px;
+    /* background-image: url(images/models/Asset\ 3models.png);
+    background-repeat: n; */
 }
 
 .title_link {
@@ -104,13 +125,19 @@ a{
     margin-bottom: 120px;
     margin-right: 100px;
     margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cover_picture_container2 {
-    width: 55%;
+    width: 62%;
     height: 365px;
     background-image: linear-gradient(to left, #e3cef0, #deecfc);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .services_container1{
@@ -168,9 +195,9 @@ a{
 }
 
 .p {
-    text-align: center;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 15px;
+    margin-left: 18px;
 }
 
 .threading {
@@ -191,7 +218,7 @@ a{
 
 .threading3 {
     width: 200px;
-    height: 150px;
+    height: 200px;
     background-image: linear-gradient(to left, #cecbe7, #deecfc);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     border-radius: 8px;
@@ -201,7 +228,7 @@ a{
 .p_subtitle{
     text-align: left;
     font-size: 15;
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: 22px;
 }
 
@@ -216,8 +243,10 @@ a{
     height: 365px;
     background-image: linear-gradient(to right, #e3cff0, #e2d0f0);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 .hair_sub1 {
     width: 180px;
@@ -229,7 +258,7 @@ a{
 
 .hair_sub2 {
     width: 220px;
-    height: 160px;
+    height: 220px;
     background-image: linear-gradient(to left, #cec5e4, #deecfc);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
@@ -276,6 +305,9 @@ a{
     height: 365px;
     background-image: linear-gradient(to right, #e3cff0, #e2d0f0);
     border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -363,7 +395,7 @@ a{
 
 .spa_sub1 {
     width: 180px;
-    height: 270px;
+    height: 310px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
@@ -527,7 +559,7 @@ a{
 
 li{
     list-style: none;
-    padding-top: 20px;
+    /* padding-top: 20px; */
 }
 
 .footer_links::before {
@@ -535,6 +567,10 @@ li{
     display: inline-block;
     width: 4px;
     margin-right: 5px;
+}
+
+.footer_links {
+    padding-top: 20px;
 }
 
 .links {
@@ -644,4 +680,307 @@ input:focus {
     border: none;
 }
 
+.model_1 {
+    max-width: 430px;
+    /* border-radius: 20%; */
+    margin-top: 120px;
+    margin-left: 10px;
+}
 
+.model_2 {
+    max-width: 430px;
+    margin-left: 10px;
+    margin-bottom: 130px;
+    border-radius: 50%;
+}
+
+.model_3 {
+    max-width: 430px;
+    margin-left: 15px;
+    margin-top: 120px;
+}
+
+.model_4 {
+    max-width: 430px;
+    margin-left: 25px;
+    margin-top: 120px;
+    border-radius: 40%;
+}
+
+.model_5 {
+    max-width: 430px;
+    margin-left: 25px;
+    margin-top: 120px;
+    border-radius: 40%;
+}
+
+.small_icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 16threading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon1 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 19basic\ wax.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 14premium\ wax.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon3 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 18hair\ wash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon4 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 20hair\ color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon5 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 23hair\ treatment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon6 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 21styling.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.small_icon7 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 22hair\ cut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon8 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 24premium\ facials.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.small_icon9 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 27basic\ facials.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.small_icon10 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 25whiteneing\ facial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.small_icon11 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 26anti\ aging.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.small_icon12 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 28clean\ up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon13 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 30\ treatment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon14 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 31manicure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon15 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 29body\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon16 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 32pediicure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon17 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 33hair\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon18 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 35rebonding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon19 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 34hair\ texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon20 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 36treatment\ area.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon21 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 37permenant\ makeup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon22 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 38med\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
