@@ -13,11 +13,17 @@ html, body {
 
 body {
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
-#all_wrapper {
-    width: 100%;
+::selection {
+    background: palevioletred;
+    color: white;
 }
+
+/* #all_wrapper {
+    width: 100%;
+} */
 
 .section_wrapper {
     width: 100%;
@@ -85,8 +91,112 @@ a{
 }
 
 .section_2 {
-    width: 65%;
+    /* width: 65%; */
 }
+
+/* 
+@media (max-width: 1250px) {
+    #all_wrapper {
+        width: 105%;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    #all_wrapper {
+        width: 115%;
+    }
+}
+
+@media (max-width: 1150px) {
+    #all_wrapper {
+       width: 125%;
+    }
+}
+
+@media (max-width: 1050px) {
+    #all_wrapper {
+        width: 135%;
+    }
+}
+
+@media (max-width: 950px) {
+    #all_wrapper {
+        width: 145%;
+    }
+}
+
+@media (max-width: 900px) {
+    #all_wrapper {
+        width: 165%;
+    }
+}
+
+@media (max-width: 800px) {
+    #all_wrapper {
+        width: 175%;
+    }
+}
+
+@media (max-width: 750px) {
+    #all_wrapper {
+        width: 190%;
+    }
+}
+
+@media (max-width: 700px) {
+    #all_wrapper {
+        width: 200%;
+    }
+}
+
+@media (max-width: 650px) {
+    #all_wrapper {
+        width: 215%;
+    }
+}
+
+@media (max-width: 600px) {
+    #all_wrapper {
+        width: 235%;
+    }
+}
+
+@media (max-width: 550px) {
+    #all_wrapper {
+        width: 250%;
+    }
+}
+
+@media (max-width: 520px) {
+    #all_wrapper {
+        width: 270%;
+    }
+}
+
+@media (max-width: 470px) {
+    #all_wrapper {
+        width: 280%;
+    }
+}
+
+@media (max-width: 430px) {
+    #all_wrapper {
+        width: 300%;
+    }
+}
+
+@media (max-width: 400px) {
+    #all_wrapper {
+        width: 320%;
+    }
+}
+
+@media (max-width: 350px) {
+    #all_wrapper {
+        width: 340%;
+    }
+} */
 
 .container_2 {
     display: flex;
@@ -248,12 +358,25 @@ a{
     align-items: center;
 }
 
+.hair_container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hair_container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .hair_sub1 {
     width: 180px;
-    height: 320px;
+    height: 350px;
     background-image: linear-gradient(to left, #cec5e4, #deecfc);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 5px;
 }
 
 .hair_sub2 {
@@ -262,21 +385,24 @@ a{
     background-image: linear-gradient(to left, #cec5e4, #deecfc);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 5px;
 }
 
 .hair_sub3 {
     width: 180px;
-    height: 250px;
+    height: 270px;
     background-image: linear-gradient(to left, #cec5e4, #deecfc);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 5px;
 }
 .hair_sub4 {
     width: 270px;
-    height: 220px;
+    height: 240px;
     background-image: linear-gradient(to left, #cec5e4, #deecfc);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 5px;
 }
 
 .section_5 {
@@ -313,10 +439,12 @@ a{
 
 .facial_sub1 {
     width: 220px;
-    height: 320px;
+    height: 300px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .facial_sub2 {
@@ -325,22 +453,28 @@ a{
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .facial_sub3 {
     width: 250px;
-    height: 200px;
+    height: 220px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .facial_sub4 {
     width: 250px;
-    height: 180px;
+    height: 195px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .facial_sub5 {
@@ -349,6 +483,7 @@ a{
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
 }
 
 .h2_facial {
@@ -395,16 +530,18 @@ a{
 
 .spa_sub1 {
     width: 180px;
-    height: 310px;
+    height: 350px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     margin-top: 150px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .spa_sub2 {
     width: 180px;
-    height: 180px;
+    height: 205px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
@@ -412,15 +549,17 @@ a{
 
 .spa_sub3 {
     width: 220px;
-    height: 340px;
+    height: 365px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .spa_sub4 {
     width: 180px;
-    height: 180px;
+    height: 210px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
@@ -455,22 +594,26 @@ a{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
     margin-left: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 
 .hair_spa_sub2 {
     width: 280px;
-    height: 220px;
+    height: 255px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
 }
 
 .hair_spa_sub3 {
     width: 250px;
-    height: 220px;
+    height: 260px;
     background-image: linear-gradient(to left, #ceb7df, #e8def3);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 8px;
+    padding-top: 10px;
 }
 
 .section_9 {
@@ -746,7 +889,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 60px;
     margin-top: 10px;
 }
 
@@ -758,7 +901,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 62px;
     margin-top: 10px;
 }
 
@@ -770,7 +913,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 
@@ -782,7 +925,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 65px;
     margin-top: 10px;
 }
 
@@ -794,7 +937,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 .small_icon7 {
@@ -805,7 +948,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 92px;
     margin-top: 10px;
 }
 
@@ -817,7 +960,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 70px;
     margin-top: 10px;
 }
 .small_icon9 {
@@ -828,7 +971,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 65px;
     margin-top: 10px;
 }
 .small_icon10 {
@@ -839,7 +982,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 80px;
     margin-top: 10px;
 }
 .small_icon11 {
@@ -850,7 +993,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 85px;
     margin-top: 10px;
 }
 .small_icon12 {
@@ -861,7 +1004,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 
@@ -873,7 +1016,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 50px;
     margin-top: 10px;
 }
 
@@ -885,7 +1028,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 
@@ -897,7 +1040,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 75px;
     margin-top: 10px;
 }
 
@@ -909,7 +1052,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 
@@ -921,7 +1064,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 55px;
     margin-top: 10px;
 }
 
@@ -933,7 +1076,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 110px;
     margin-top: 10px;
 }
 
@@ -945,7 +1088,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 95px;
     margin-top: 10px;
 }
 
@@ -953,11 +1096,11 @@ input:focus {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-image: url(images/small-icons/Asset\ 36treatment\ area.png);
+    background-image: url(images/small-icons/Asset\ 36treatment\ area_new.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 65px;
     margin-top: 10px;
 }
 
@@ -969,7 +1112,7 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 105px;
     margin-top: 10px;
 }
 
@@ -981,6 +1124,6 @@ input:focus {
     background-repeat: no-repeat;
     background-size: cover;
     border: 2px solid white;
-    margin-left: 35px;
+    margin-left: 65px;
     margin-top: 10px;
 }

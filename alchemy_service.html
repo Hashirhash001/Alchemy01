@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- my style -->
+    <link rel="stylesheet" href="service_style.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href=""><img src="images/logo/Asset 5.png"></a>
+            <div class="nav_links" id="navLinks">
+                <img src="images/icons/close.png" class="menu_icons" onclick="hideMenu()">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href=""><span>BOOK NOW</span></a></li>
+                </ul>
+            </div>
+            <img src="images/icons/Asset 6hamburger.svg" class="menu_icons" onclick="showMenu()">
+        </nav>
+
+            <div class="container1">
+
+                <div class="text_box">
+                    <h1>Be Your Own<br>
+                        Kind Of Beautiful</h1>
+                        <div class="quote">
+                            <a href="" class="quote_btn">Get a Quote</a>
+                            <a href="" class="quote_btn">About us</a>
+                        </div>
+                    
+                </div>
+                <div class="cover_image" style="background-image: url('images/models/Asset\ 2logo.png');">
+                    
+                </div>
+
+            </div>
+
+
+    </section>
+
+    <!-- js for toggle menu -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+    
+</body>
+</html>
