@@ -174,3 +174,886 @@ nav img {
     background-position: center;
     background-size: contain;
 }
+
+.services_heading {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    background: #e0f0fd;
+}
+
+.section_3 {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #dfe6fa, #e0f0fd) !important;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.model_1 {
+    max-width: 530px; 
+}
+
+.services_container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.services_container2 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.thread_container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.threading {
+    width: 140px;
+    height: 240px;
+    background-image: linear-gradient(to left, #cecbe7, #deecfc);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+
+.threading1 {
+    width: 140px;
+    height: 260px;
+    background-image: linear-gradient(to left, #cecbe7, #deecfc);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+
+.threading2 {
+    width: 200px;
+    height: 390px;
+    background-image: linear-gradient(to left, #cecbe7, #deecfc);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+}
+
+.threading3 {
+    width: 200px;
+    height: 185px;
+    background-image: linear-gradient(to left, #cecbe7, #deecfc);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    border-radius: 8px;
+    margin-bottom: 120px;
+}
+
+.p {
+    font-size: 15;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-left: 18px;
+}
+
+.p_subtitle{
+    text-align: left;
+    margin-left: 18px;
+}
+
+.small_icon {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 16threading.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon1 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 19basic\ wax.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.small_icon2 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 14premium\ wax.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.small_icon3 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 18hair\ wash.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 62px;
+    margin-top: 10px;
+}
+
+.section_4 {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #e1d8f4, #dfe7fa);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.services_container2 {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_container2_1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model_2 {
+    max-width: 430px;
+    margin-left: 10px;
+    margin-bottom: 90px;
+}
+
+.small_icon4 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 20hair\ color.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.small_icon5 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 23hair\ treatment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.small_icon6 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 21styling.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.small_icon7 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 22hair\ cut.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 92px;
+    margin-top: 10px;
+}
+
+.hair_container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hair_container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hair_sub1 {
+    width: 180px;
+    height: 390px;
+    background-image: linear-gradient(to left, #cec5e4, #deecfc);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.hair_sub2 {
+    width: 220px;
+    height: 240px;
+    background-image: linear-gradient(to left, #cec5e4, #deecfc);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.hair_sub3 {
+    width: 180px;
+    height: 290px;
+    background-image: linear-gradient(to left, #cec5e4, #deecfc);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+.hair_sub4 {
+    width: 270px;
+    height: 268px;
+    background-image: linear-gradient(to left, #cec5e4, #deecfc);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 5px;
+}
+
+.section_5 {
+    min-height: 100vh;
+    background-image: linear-gradient(to top, #e3cef0, #e0daf5);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.model_3 {
+    max-width: 490px;
+}
+
+.services_container3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_container4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facial_container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.facial_sub1 {
+    width: 220px;
+    height: 320px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+    
+}
+
+.facial_sub2 {
+    width: 200px;
+    height: 275px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+    
+}
+
+.facial_sub3 {
+    width: 250px;
+    height: 220px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.facial_sub4 {
+    width: 250px;
+    height: 195px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.facial_sub5 {
+    width: 170px;
+    height: 200px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.small_icon8 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 24premium\ facials.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.small_icon9 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 27basic\ facials.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+.small_icon10 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 25whiteneing\ facial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.small_icon11 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 26anti\ aging.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.small_icon12 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 28clean\ up.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.section_6 {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #e3cff0, #e0e1f7);
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    overflow-x: hidden;
+}
+
+.model_4 {
+    max-width: 450px;
+    margin-left: 25px;
+    margin-top: 120px;
+}
+
+.services_container5 {
+    width: 100%;
+    margin-left: 100px;
+    padding-right: 100px;
+    margin-top: 30px;
+}
+
+.h2_facial {
+    text-align: left;
+    font-size: 35px;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.h3_facial {
+    letter-spacing: 1px;
+}
+
+.p_facial {
+    color: #666767;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.section_7 {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #e0e2f8, #dfeffd);
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    overflow-x: hidden;
+}
+
+.model_5 {
+    max-width: 430px;
+    margin-left: 25px;
+    margin-top: 120px;
+}
+
+.section_8 {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #e3eefd, #f0ecfd);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.services_container6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.services_container7 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.model_6 {
+    max-width: 600px;
+    margin-left: 25px;
+    margin-top: 120px;
+}
+
+.spa_sub1 {
+    width: 180px;
+    height: 370px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin-top: 150px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spa_sub2 {
+    width: 180px;
+    height: 205px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.spa_sub3 {
+    width: 220px;
+    height: 420px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.spa_sub4 {
+    width: 180px;
+    height: 210px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.small_icon13 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 30\ treatment.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.small_icon14 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 31manicure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.small_icon15 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 29body\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.small_icon16 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 32pediicure.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.section_9 {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #efedfd, #eeecfd);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.model_7 {
+    max-width: 500px;
+    margin-left: 25px;
+    margin-top: 120px;
+}
+
+.hair_spa_sub1 {
+    width: 180px;
+    height: 290px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.hair_spa_sub2 {
+    width: 280px;
+    height: 295px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.hair_spa_sub3 {
+    width: 250px;
+    height: 290px;
+    background-image: linear-gradient(to left, #ceb7df, #e8def3);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+
+.small_icon17 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 33hair\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+.small_icon18 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 35rebonding.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.small_icon19 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 34hair\ texture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+
+.section_10 {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #efedfd, #eeecfd);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    overflow-x: hidden;
+}
+
+.model_8 {
+    max-width: 400px;
+    margin-left: 25px;
+    margin-top: 120px;
+}
+
+.med_spa_container1 {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+
+.med_spa_sub1 {
+    width: 200px;
+    height: 585px;
+    background-image: linear-gradient(to left, #d0c8e6, #eff0fb);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.med_spa_sub2 {
+    width: 270px;
+    height: 390px;
+    background-image: linear-gradient(to left, #d0c8e6, #eff0fb);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.med_spa_sub3 {
+    width: 190px;
+    height: 390px;
+    background-image: linear-gradient(to left, #d0c8e6, #eff0fb);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.small_icon20 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 36treatment\ area_new.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.small_icon21 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 37permenant\ makeup.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+
+.small_icon22 {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/small-icons/Asset\ 38med\ spa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid white;
+    margin-left: 65px;
+    margin-top: 10px;
+}
+
+.section_11 {
+    height: 70vh;
+    background-image: linear-gradient(to bottom, #eeecfd, #deeffd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.footer {
+    display: flex;
+    height: 300px;
+    padding: 30px;
+    padding-left: 30px;
+    align-items: flex-start;
+    justify-content: center;
+    background-image: linear-gradient(to left, #b8a3cf, #f7fafd);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 30px;
+    width: 90%;
+}
+
+
+.footer_sec1 {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer_sec2 {
+    width: 60%;
+    padding-right: 100px;
+}
+
+li{
+    list-style: none;
+    /* padding-top: 20px; */
+}
+
+.footer_links::before {
+    content: url(images/icons/Asset\ 39right\ chevron.svg);
+    display: inline-block;
+    width: 4px;
+    margin-right: 5px;
+}
+
+.footer_links {
+    padding-top: 20px;
+}
+
+.links {
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.footer_head {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.footer_head2 {
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    padding-bottom: 25px;
+}
+
+.footer_sub {
+    font-size: 12px;
+    padding-top: 2px;
+}
+
+.footer_subhead {
+    padding-top: 4px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding-top: 15px;
+}
+
+.footer_container1 {
+    display: flex;
+}
+
+.footer_container2 {
+    display: flex;
+}
+
+.footer_container3 {
+    display: flex;
+}
+
+.footer_container1::before {
+    content: url(images/icons/Asset\ 40loc.svg);
+    display: inline-block;
+    width: 25px;
+    margin-right: 25px;
+    margin-top: 15px;
+}
+
+.footer_container2::before {
+    content: url(images/icons/Asset\ 41phone.svg);
+    display: inline-block;
+    width: 13px;
+    margin-right: 25px;
+    margin-top: 14px;
+}
+
+.footer_container3::before {
+    content: url(images/icons/Asset\ 42mail.svg);
+    display: inline-block;
+    width: 15px;
+    margin-right: 25px;
+    margin-top: 13px;
+}
+
+.footer_logos {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.media_logos {
+    width: 33px;
+    height: 33px;
+}
+
+.footer_join {
+    color: white;
+    text-align: center;
+}
+
+.footer_logos2 {
+    margin-top: 30px;
+}
+
+.footer_logos3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_email {
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.footer_email::placeholder {
+    font-size: 10px;
+}
+
+input:focus {
+    border: none;
+}
