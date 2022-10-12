@@ -25,6 +25,7 @@ body {
 }
 
 nav {
+    
     display: flex;
     padding: 0px 50px;
     justify-content: space-between;
@@ -36,11 +37,12 @@ nav {
 .nav {
     position: fixed;
     top: 0;
+    z-index: 200;
 }
 
 
 nav img {
-    width: 180px;
+    width: 200px;
 }
 
 .nav_links {
@@ -99,6 +101,7 @@ nav img {
 }
 
 .text_box h1{
+    font-weight: 700;
     font-size: 40px;
 }
 
@@ -1115,6 +1118,7 @@ li{
 }
 
 .footer_email::placeholder {
+    color: black;
     font-size: 10px;
 }
 
@@ -1274,13 +1278,21 @@ input:focus {
         border-radius: 0px;
     }
 
+    .footer_join {
+        color: black;
+    }
+
+    .footer_email {
+        border: 1px solid slategrey;
+    }
+
     .footer_sec2 {
         padding-right: 0px;
     }
 
     .section_11 {
         overflow-y: hidden;
-        min-height: 70vh;
+        min-height: 85vh;
     }
 
     
@@ -1327,8 +1339,8 @@ input:focus {
     }
 
     .cover_image {
-        background-size: cover;
-        background-position: left;
+        background-size: contain;
+        background-position: right;
     }
 
     .footer_full_container {
@@ -1395,10 +1407,20 @@ input:focus {
     .facial_container1 {
         align-items: center;
         justify-content: center;
+        gap: 20px;
+    }
+
+    .spa_sub1 {
+        margin-bottom: 0;
+    }
+
+    .spa_sub3 {
+        margin-bottom: 0;
     }
 
     .hair_spa_sub1{
         margin-left: 0px;
+        margin-bottom: 0;
     }
 
     .med_spa_container1 {
@@ -1409,7 +1431,7 @@ input:focus {
 
     .services_container2 {
         flex-direction: column;
-        gap: 10px;
+        gap: 20px;
         margin-bottom: 30px;
         
     }
@@ -1420,12 +1442,12 @@ input:focus {
 
     .hair_container1 {
         align-items: center;
-        gap: 0;
+        /* gap: 0; */
     }
 
     .hair_container2 {
         align-items: center;
-        gap: 0;
+        /* gap: 0; */
     }
 
     .services_container6 {
@@ -1476,12 +1498,39 @@ input:focus {
 
 @media (max-width: 490px) {
     .cover_image {
-        min-height: 60vh;
+        min-height: 45vh;
     }
 }
 
 @media (max-width: 390px) {
     .cover_image {
-        min-height: 50vh;
+        min-height: 45vh;
     }
+}
+
+.cover_image2 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact_container1 {
+    display: grid;
+    grid-template-columns: 0.7fr 1.3fr;
+    min-height: 85vh;
+    min-width: 100vw;
+    margin-top: 100px;
+    background-image: linear-gradient(to top, #e2d2f1, white);
+}
+
+.contact_cover_image {
+    background-color: white;
+    min-height: 80vh;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
 }
