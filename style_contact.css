@@ -1,3 +1,10 @@
+.header_contact {
+    min-height: 100vh;
+    min-width: 100%;
+    position: relative;
+    overflow-x: hidden;
+    background-image: linear-gradient(to top, #e2d2f1, white);
+}
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
 
@@ -50,10 +57,10 @@ h4 strong {
     background-image: linear-gradient(to right, #ac8cc2, #aacff1);  
     color: white;
     cursor: pointer;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 .form1_contact input:not([type=email]):hover {
-    background: #be91dd;
+    
 }
 .form1_contact input:focus {
     outline: none;
@@ -62,7 +69,7 @@ h4 strong {
 
 .contact_us_footer {
    background-image: linear-gradient(to bottom, #e2d2f1, #dfe5f9);
-   min-height: 100vh;
+   min-height: 150vh;
    display: flex;
    flex-direction: column;
    gap: 100px;
@@ -149,6 +156,7 @@ input[type=number] {
     border-radius: 15px;
     background-image: linear-gradient(to right, #ac8cc2, #aacff1);
     color: white;
+    cursor: pointer;
 }
 
 
@@ -178,10 +186,28 @@ input[type=number] {
 .map_cont {
     background-color: white;
     height: 270px;
-    max-width: 80%;
+    width: 80%;
     border-radius: px;
+    margin-top: 50px;
 }
 
 .map_div {
     width: 100%;
+}
+
+@media (max-width:1130px) {
+    .contact_container1 {
+        display: flex;
+        flex-direction: column-reverse;
+        min-height: 100vh;
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:700px) {
+
+    .map_cont {
+        width: 100%;
+    }
+    
 }
