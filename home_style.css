@@ -27,6 +27,33 @@
     min-width: 100%;
 }
 
+.contact_head h4 {
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 400px) {
+
+    .contact_head h4 {
+        font-size: 20px;
+    }
+
+    .contact_head p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .form1_contact {
+        max-width: 200px !important;
+    }
+
+    .contact_inner_cont2 {
+        width: 85% !important;
+    }
+    
+}
+
 @media (max-width: 650px) {
     .serv_home_img {
         flex-direction: column;
@@ -105,6 +132,11 @@
         flex-direction: column;
         gap: 50px;
     }
+
+
+    .prof_home {
+        min-height: 250px !important;
+    }
 }
 
 @media (max-height: 630px) {
@@ -166,11 +198,14 @@
     max-height: 250px;
 }
 
-.active_nav {
-    border-bottom: 3px solid #2a4049;
+.active_nav:after {
+    content: '';
     width: 100%;
+    height: 3px;
+    background: #f44336;
     display: block;
     margin: auto;
+    transition: 0.5s;
 }
 
 
@@ -904,6 +939,114 @@
     width: 100%;
     max-height: 70%;
 }
+
+@media (max-width: 920px) {
+    .portfolio_container {
+        flex-direction: column;
+    }
+
+    .port_cont1 {
+        flex-direction: row !important;
+    }
+
+    .port_cont3 {
+        flex-direction: row !important;
+    }
+
+    .port_img2 {
+        max-width: 415px !important;
+    }
+
+    .port_img3 {
+        min-width: 200px !important;
+    }
+}
+
+@media (max-width: 1350px) {
+    .contact_inner_cont2 {
+        width: 75%;
+    }
+}
+
+
+@media(max-width: 1100px) {
+    .container_contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 600px;
+        gap: 40px;
+    }
+
+    .contact_inner_cont2_wrapper {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .contact_inner_cont2 {
+        width: 60%;
+    }
+
+    .contact_us_footer {
+        padding-bottom: 100px;
+    }
+
+    .contact_inner_cont {
+        margin-top: 100px;
+        width: 100%;
+    }
+
+    nav {
+        padding: 0px 20px;
+    }
+
+    .form1_contact {
+        max-width: 290px;
+    }
+
+    .contact_inner_cont2 {
+        width: 60% !important;
+    }
+
+}
+
+@media (max-width: 700px) {
+    .section_home5 {
+        padding: 100px 50px;
+    }
+}
+
+@media (max-width: 580px) {
+    .container_contact {
+        width: 100%;
+        border-radius: 15px;
+    }
+
+    .home_head1 {
+        padding: 45px;
+    }
+
+    .contact_inner_cont2 {
+        width: 85% !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .port_img2 {
+        object-position: 43% !important;
+        max-width: 320px !important;
+    }
+
+    .port_img1 {
+        max-width: 152px !important;
+    }
+
+    .port_img3 {
+        min-width: 152px !important;
+        max-width: 152px !important;
+    }
+}
+
 
 .port_cont1{
     display: flex;
