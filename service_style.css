@@ -15,6 +15,7 @@ body {
     background: palevioletred;
     color: white;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -153,7 +154,7 @@ nav img {
 
     .nav_links {
         position: absolute;
-        background: #ce817c;
+        background: #363434;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -163,11 +164,13 @@ nav img {
         transition: 1s cubic-bezier(0.45, 0.05, 0.55, 0.95);
     }
 
+    .nav_links ul li a {
+        color: white;
+    }
+
     .button_back_remov {
         background: none !important;
     }
-
-    
 
     .menu_icons {
         display: block;
@@ -183,6 +186,20 @@ nav img {
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
+    }
+
+    .book_now_home::after {
+        content: '';
+        width: 0%;
+        height: 3px;
+        background: #f44336;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    .book_now_home:hover::after {
+        width: 100%;
     }
 
 }
@@ -974,7 +991,7 @@ nav img {
 }
 
 .section_11 {
-    height: 40vh;
+    height: 70vh;
     background-image: linear-gradient(to bottom, #eeecfd, #deeffd);
     display: flex;
     align-items: center;
@@ -1336,8 +1353,8 @@ input:focus {
 
 @media (max-width: 720px) {
     .cover_image {
-        background-size: cover !important;
-        background-position: left !important;
+        background-size: contain;
+        background-position: 150px;
     }
 }
 
@@ -1371,8 +1388,9 @@ input:focus {
     }
 
     .cover_image {
+        min-height: 65vh;
         background-size: contain;
-        background-position: right;
+        background-position: 100px;
     }
 
     .footer_full_container {
@@ -1524,7 +1542,8 @@ input:focus {
     }
 
     .cover_image {
-        min-height: 70vh;
+        min-height: 60vh;
+        background-position: right;
     }
 
     .threading {
@@ -1629,13 +1648,20 @@ input:focus {
 
 @media (max-width: 490px) {
     .cover_image {
-        min-height: 58vh;
+        background-size: contain;
+        background-position: 60px;
+        min-height: 50vh;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
 }
 
 @media (max-width: 390px) {
     .cover_image {
-        min-height: 45vh;
+        min-height: 50vh;
+        background-position: 20px;
     }
 }
 
