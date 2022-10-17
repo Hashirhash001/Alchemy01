@@ -9,7 +9,25 @@
 
 body {
     background: white;
+    overflow: overlay;
 }
+
+
+body::-webkit-scrollbar {
+    width: 5px;               
+  }
+  
+  /* body::-webkit-scrollbar-track {
+    display: none !important;       
+  } */
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #fc7cab;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+
+      /* creates padding around scroll thumb */
+      /* border: 3px solid rgb(63, 62, 61); */
+  }
 
 ::selection {
     background: palevioletred;
@@ -88,6 +106,58 @@ nav img {
 
 .nav_links ul .nav_link_button:hover::after {
     width: 100%;
+}
+
+/* book now hover */
+
+.book_now_home2 {
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-size: 300% 100%;
+}
+
+.book_now_home2:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.book_now_home2:focus {
+    outline: none;
+}
+
+.book_now_home2.color-7 {
+    background-image: linear-gradient(to right, #d6bbe7, #c6d7e6, #b9b8f5, #d46868);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.contact_button {
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    background-size: 300% 100%;
+}
+
+.contact_button:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.contact_button:focus {
+    outline: none;
+}
+
+.contact_button.color-7 {
+    background-image: linear-gradient(to right, #b077d1, #84b0d6, #6c6bc4, #d46868);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
 .text_box {

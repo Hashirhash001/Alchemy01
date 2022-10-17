@@ -68,9 +68,19 @@ h4 strong {
     color: white;
     cursor: pointer;
     transition: 0.5s;
+    background-size: 300% 100%;
 }
 .form1_contact input:not([type=email]):hover {
-    background-image: linear-gradient(45deg, #aacff1, #ac8cc2); 
+    background-position: 90% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+}
+
+.form1_contact input:not([type=email]).color-7 {
+    background-image: linear-gradient(to right, #b886d6, #338fe0, #6362c0, #d46868);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(75, 85, 92, 0.15) 0px 2px 6px 2px;
 }
 .form1_contact input:focus {
     
