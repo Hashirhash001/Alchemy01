@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    cursor: none !important;
+}
+
 .container1_home {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -108,6 +112,7 @@
  button.learn-more .button-text {
 	 transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 	 position: absolute;
+     cursor: none;
 	 top: 0;
 	 left: 0;
 	 right: 0;
@@ -463,7 +468,7 @@
     display: block;
     position: absolute;
     color: black;
-    cursor: pointer;
+    cursor: none;
     font-size: 2em;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -516,7 +521,7 @@
     border-radius: 50%;
     border: 1px solid black;
     margin: 0 10px;
-    cursor: pointer;
+    cursor: none;
     -webkit-transition: all .5s ease-in-out;    
     -ms-transition: all .5s ease-in-out;    
     -moz-transition: all .5s ease-in-out;    
@@ -1185,6 +1190,27 @@
 
     .testim .cont div p {
         font-size: 0.7em;
+    }
+
+    .home_head1 h1 {
+        font-size: 2rem !important;
+        font-weight: 500;
+    }
+
+    .section_home2 .home_head2 {
+            font-size: 22px;
+    }
+
+    .section_home2 p {
+        font-size: 18px;
+}
+
+    .section_home3_inner1 .home_head3{
+        font-size: 22px;
+    }
+
+    .section_home6 h1{
+        font-size: 1.8rem;
     }
 }
 

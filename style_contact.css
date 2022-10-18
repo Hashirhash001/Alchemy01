@@ -16,6 +16,11 @@
     transition: 0.5s;
 }
 
+
+a {
+    cursor: none !important;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
 
 .container {
@@ -50,6 +55,7 @@ h4 strong {
     font-weight: 300;
     background: #eee;
     letter-spacing: 0.02em;
+    cursor: none;
 }
 .form1_contact input:not([type=submit]) {
     width: 100%;
@@ -66,7 +72,7 @@ h4 strong {
     padding: 0 16px;
     background-image: linear-gradient(to right, #ac8cc2, #aacff1);  
     color: white;
-    cursor: pointer;
+    cursor: none;
     transition: 0.5s;
     background-size: 300% 100%;
 }
@@ -146,6 +152,7 @@ h4 strong {
     border: none;
     border-bottom: 1px solid grey;
     transition: 0.3s ease;
+    cursor: none;
 }
 
 .form2_contact input:focus {
@@ -178,7 +185,7 @@ input[type=number] {
     border-radius: 15px;
     background-image: linear-gradient(to right, #ac8cc2, #aacff1);
     color: white;
-    cursor: pointer;
+    cursor: none;
 }
 
 

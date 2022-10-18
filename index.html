@@ -23,6 +23,9 @@
 </head>
 <body>
 
+
+    <div class="cursor"></div>
+
     <section class="header">
 
         <nav class="nav" style="background: #f8c2c1;">
@@ -46,8 +49,8 @@
                     <h1 style="color:#f95396;">Experience The<br>
                         Best Beauty Services</h1>
                         <div class="quote">
-                            <a href="" class="quote_btn" style="background-image: linear-gradient(to right, #fc7eac, #f8acc9);">Get a Quote</a>
-                            <a href="" class="quote_btn" style="background-image: linear-gradient(to right, #fc7eac, #f8acc9);">About us</a>
+                            <a href="" class="quote_btn slide" style="background-image: linear-gradient(to right, #fc7eac, #f8acc9);">Get a Quote</a>
+                            <a href="about_us.html" class="quote_btn slide" style="background-image: linear-gradient(to right, #fc7eac, #f8acc9);">About us</a>
                         </div>
                     
                 </div>
@@ -300,12 +303,12 @@
                         <p>Request a call back</p>
                         </div>
     
-                        <form class="form2_contact">
+                        <form class="form2_contact" action="send_mail.php" method="post">
     
-                            <input type="text" placeholder="Your Name"><br>
-                            <input type="number" placeholder="Your Phone Number"><br>
-                            <input type="text" placeholder="Your Email Address"><br>
-                            <button class="contact_button color-7" type="submit"  href="#">JOIN US ></button>
+                            <input type="text" name="name" placeholder="Your Name" required><br>
+                            <input type="number" name="phone" placeholder="Your Phone Number" required><br>
+                            <input type="text" name="email" placeholder="Your Email Address"><br>
+                            <button class="contact_button color-7" type="submit" name="submit">JOIN US ></button>
     
                         </form>
     
@@ -424,6 +427,8 @@
     
 
     </section>
+
+    <script src="js/cursor.js"></script>
 
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
     <script src="js/testimonial.js"></script>
