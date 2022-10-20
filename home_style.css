@@ -10,7 +10,7 @@ a {
 
 .container1_home {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 0.4fr 1.6fr;
     min-height: 93vh;
     min-width: 100vw;
     margin-top: 80px;
@@ -228,7 +228,8 @@ a {
 
     .text_box {
         margin-top: 0;
-        text-align: center;
+        text-align: left;
+        align-items: center;
     }
 
     .section2_home {
