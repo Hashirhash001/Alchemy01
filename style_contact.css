@@ -286,6 +286,10 @@ input[type=number] {
     .map_cont {
         width: 100%;
     }
+
+    .request_contact {
+        font-size: 22px !important;
+    }
     
 }
 

@@ -15,7 +15,7 @@ body {
 }
 
 .font_home_head {
-    font-size: 60px !important;
+    font-size: 60px;
   }
 
   .font_home_head2 {
@@ -34,19 +34,19 @@ body {
 }
 
 .from_left {
-    transform: translateX(-50%);
+    transform: translateX(-20%);
 }
 
 .from_right {
-    transform: translateX(50%);
+    transform: translateX(20%);
 }
 
 .from_top {
-    transform: translateY(-20%);
+    transform: translateY(-10%);
 }
 
 .from_bottom {
-    transform: translateY(20%);
+    transform: translateY(8%);
 }
 
 .from_top,
@@ -483,7 +483,7 @@ nav img {
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 45px;
-    letter-spacing: 4px;
+    /* letter-spacing: 4px; */
     font-weight: bolder;
     /* background: #b0d6f5; */
     padding-top: 50px;
@@ -923,7 +923,7 @@ nav img {
     text-align: left;
     font-size: 35px;
     margin-top: 50px;
-    letter-spacing: 5px;
+    /* letter-spacing: 5px; */
     margin-bottom: 30px;
 }
 
@@ -1530,11 +1530,19 @@ input:focus {
     .text_box {
         margin-top: 100px;
         padding-bottom: 50px;
+        padding-left: 0;
+        align-items: center;
     }
 
     .text_box_contact {
         margin-top: 100px;
         padding-bottom: 50px;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .h2_facial {
+        font-size: 30px;
     }
 
     .services_heading {
@@ -1603,7 +1611,7 @@ input:focus {
 
     .section_11 {
         overflow-y: hidden;
-        min-height: 60vh;
+        min-height: 90vh;
     }
 
     
@@ -1749,7 +1757,9 @@ input:focus {
 @media (max-height: 630px) {
     .container1 {
         min-height: 100vh;
-    }
+    }  
+
+
 }
 
 @media (max-width: 600px) {
@@ -1969,7 +1979,7 @@ input:focus {
 
 @media (max-width: 390px) {
     .cover_image {
-        min-height: 50vh;
+        min-height: 46vh;
         background-position: center;
     }
 }
