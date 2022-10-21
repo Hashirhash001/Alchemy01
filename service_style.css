@@ -192,6 +192,10 @@ a {
     /* background-image: linear-gradient(to top, #b0d6f5, white); */
 }
 
+.booking_page {
+    margin-bottom: 0px !important;
+}
+
 nav {
     
     display: flex;
@@ -202,12 +206,11 @@ nav {
     background: white;
 }
 
-.nav {
+.nav_head1 {
     position: fixed;
     top: 0;
     z-index: 6000;
 }
-
 
 nav img {
     width: 200px;

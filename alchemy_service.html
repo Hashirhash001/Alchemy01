@@ -19,17 +19,17 @@
     <div class="cursor"></div>
 
     <section class="header">
-        <nav class="nav">
+        <nav class="nav_head1">
             <a href="index.html"><img src="images/logo/Asset 5.png"></a>
             <div class="nav_links" id="navLinks">
                 <img src="images/icons/close2.png" class="menu_icons" onclick="hideMenu()">
                 <ul>
-                    <li class="nav_link_button"><a href="index.html">HOME</a></li>
-                    <li class="nav_link_button"><a href="about_us.html" class="">ABOUT US</a></li>
+                    <li class="nav_link_button "><a class="" href="index.html">HOME</a></li>
+                    <li class="nav_link_button "><a class="" href="about_us.html" class="">ABOUT US</a></li>
                     <li class=""><a href="alchemy_service.html" class="active_nav">SERVICES</a></li>
                     
-                    <li class="nav_link_button"><a href="contact-us.html" >CONTACT US</a></li>
-                    <li class=""><a href=""><span class="book_now_home2 color-7 button_back_remov">BOOK NOW</span></a></li>
+                    <li class="nav_link_button "><a class="" href="contact-us.html" >CONTACT US</a></li>
+                    <li class=""><a class="" href="booking.html"><span class="book_now_home2 color-7 button_back_remov">BOOK NOW</span></a></li>
                 </ul>
             </div>
             <img src="images/icons/Asset 6hamburger.svg" class="menu_icons" onclick="showMenu()">
@@ -650,7 +650,7 @@
         var navLinks = document.getElementById("navLinks");
 
         function showMenu() {
-            navLinks.style.right = "0";
+            navLinks.style.right = "0"; 
         }
 
         function hideMenu() {
