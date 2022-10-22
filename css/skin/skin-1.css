@@ -80,13 +80,19 @@
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
 .pagination li.active a,
 .rev-slider .tparrows {
- background-color: var(--primary);
+ /* background-color: var(--primary); */
+    color: black;
+	border-radius: 15px;
+	background: linear-gradient(to right, #ab90c3, #abcef1);
 }
 /* Bg Secondry */
 .site-button-secondry,
 .bg-secondry,
 .rev-slider .tparrows:hover{
-	background-color: var(--secondary);
+	/* background-color: var(--secondary); */
+	color: black;
+	border-radius: 15px;
+	background: linear-gradient(to right, #ab90c3, #abcef1);
 }
 .site-button-secondry:hover{
 	background-color:#00a9b8;

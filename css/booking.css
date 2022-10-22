@@ -1,0 +1,66 @@
+
+
+.booking_contact {
+    background: white;
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form1_contact {
+    position: relative;
+    display: block;
+    height: 35px;
+    width: 330px;
+    border-radius: 35px;
+    background: white;
+    margin: 0 auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .28);
+    overflow: hidden;
+}
+.form1_contact input {
+    font-size: 12px;
+    line-height: 37px;
+    padding: 0;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    background: #eee;
+    letter-spacing: 0.02em;
+    cursor: none;
+}
+.form1_contact input:not([type=submit]) {
+    width: 100%;
+    display: block;
+    padding: 0 122px 0 18px;
+}
+.form1_contact input:not([type=email]) {
+    position: absolute;
+    height: 27px;
+    line-height: 25px;
+    top: 4px;
+    right: 6px;
+    border-radius: 25px;
+    padding: 0 16px;
+    background-image: linear-gradient(to right, #ac8cc2, #aacff1);  
+    color: white;
+    cursor: none;
+    transition: 0.5s;
+    background-size: 300% 100%;
+}
+.form1_contact input:not([type=email]):hover {
+    background-position: 90% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out; 
+}
+
+.form1_contact input:not([type=email]).color-7 {
+    background-image: linear-gradient(to right, #b886d6, #338fe0, #6362c0, #d46868);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(75, 85, 92, 0.15) 0px 2px 6px 2px;
+}
+.form1_contact input:focus {
+    
+}

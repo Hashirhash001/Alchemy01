@@ -35,6 +35,9 @@ h1 {
 h4 strong {
     font-weight: 600;
 }
+
+/* form button */
+
 .form1_contact {
     position: relative;
     display: block;

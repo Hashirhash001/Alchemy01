@@ -105,7 +105,7 @@ body::-webkit-scrollbar {
 
 a {
     text-decoration: none;
-    color: black;
+    color: black !important;
     cursor: none !important;
 }
 
@@ -1328,14 +1328,17 @@ li{
     font-weight: bolder;
     letter-spacing: 1px;
     padding-bottom: 25px;
+    margin-bottom: 0 !important;
 }
 
 .footer_sub {
     font-size: 12px;
     padding-top: 2px;
+    margin-bottom: 0 !important;
 }
 
 .footer_subhead {
+    margin-bottom: 0 !important;
     padding-top: 4px;
     font-size: 12px;
     font-weight: bolder;

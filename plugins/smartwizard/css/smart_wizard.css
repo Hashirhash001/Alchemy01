@@ -12,9 +12,12 @@
 
 /* SmartWizard Basic CSS */
 .sw-main {
-    background: #dfdaee;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background: linear-gradient(to bottom, #cfc5eb, #def0fe);
     opacity: 90%;
-    border-radius: 12px;
+    border-radius: 13px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
     position: relative;
     display: block;
     margin: 0;
@@ -79,11 +82,13 @@
 }
 
 .sw-theme-default > ul.step-anchor > li > a, .sw-theme-default > ul.step-anchor > li > a:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none !important;
     color: #404040;
+    border-radius: 10px;
     text-decoration: none;
     outline-style: none;
-    background: transparent !important;
+    background: whitesmoke !important;
     border: none !important;
     cursor: not-allowed;
 	font-size: 18px;
@@ -96,9 +101,9 @@
 }
 .sw-theme-default > ul.step-anchor > li.active > a {
     border: none !important;
-    background: #00becf !important;
+    background: #d4b0e9  !important;
     cursor: pointer;
-	border-radius:0 !important;
+	/* border-radius:0 !important; */
 	color:#fff;
 }
 
@@ -111,9 +116,10 @@
 .sw-theme-default > ul.step-anchor > li.done > a {
     border: none !important;
     color: #fff !important;
-    background: #ff5ea5 !important;
+    /* background: #ff5ea5 !important; */
+    background: #d4b0e9  !important;
     cursor: pointer;
-	border-radius:0 !important;
+	/* border-radius:0 !important; */
 }
 .sw-theme-default > ul.step-anchor > li > a span i{
 	font-size: 0;
@@ -143,8 +149,12 @@
 }
 
 .sw-theme-default > ul.nav-tabs {
+    border-radius: 15px;
+    gap: 40px;
+    background: #deebfb !important;
 	border-bottom: 0;
 	border: 1px solid rgba(0,0,0,0.1);
+    padding: 15px;
 }
 .sw-theme-default > ul.step-anchor > li.danger > a {
     border: none !important;
@@ -250,16 +260,17 @@
 	opacity:0;
 }
 .book-time .btn.active{
-	background-color:#ff5ea5;
+	background-color: #55a1ff;
 	color:#fff;
 }
 .book-time  .btn.active-time{
-	background-color:#00becf;
+	background-color: #ad6ad4;
 	font-weight:700;
 	color:#fff;
 }
 .sw-theme-default .bootstrap-select .btn.dropdown-toggle{
-	border-radius: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	border-radius: 13px;
 	border: 2px solid #e7ecf1 !important;
 	height:50px;
 	font-size:16px;
@@ -270,6 +281,8 @@
 	right: 14px;
 }
 .sw-theme-default .form-control{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 13px;
 	height: 50px;
 	font-size: 16px;
 	border: 2px solid #e7ecf1;
