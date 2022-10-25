@@ -1,8 +1,11 @@
-
+.nav_head1 {
+    /* background-image: linear-gradient(to bottom ,rgb(248, 163, 215), lightblue); */
+    background: rgb(218 246 255);
+}
 
 .booking_contact {
-    background: white;
-    min-height: 70vh;
+    background: #Cccc;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +22,7 @@
     box-shadow: 0 8px 32px rgba(0, 0, 0, .28);
     overflow: hidden;
 }
+
 .form1_contact input {
     font-size: 12px;
     line-height: 37px;
@@ -63,4 +67,10 @@
 }
 .form1_contact input:focus {
     
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding-top: 100px;
+    }
 }

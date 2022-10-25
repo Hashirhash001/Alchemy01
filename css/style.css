@@ -12438,6 +12438,8 @@ ol.commentlist li .star-rating {
 .content-inner-2{
 	padding-top:160px;
 	padding-bottom:80px;
+    background-image: linear-gradient(to bottom ,rgb(218 246 255) ,#Cccc);
+    /* background: rgb(194, 236, 250); */
 }
 .content-inner-3{
 	padding-top:120px;
