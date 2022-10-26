@@ -13,8 +13,9 @@
 /* SmartWizard Basic CSS */
 .sw-main {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    background: linear-gradient(to bottom, #cfc5eb, #def0fe);
-    opacity: 90%;
+    /* background: linear-gradient(to bottom, #cfc5eb, #def0fe); */
+    background: transparent;
+    opacity: 100%;
     border-radius: 13px;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
@@ -24,6 +25,14 @@
     padding: 0;
     /* border: 5px solid #f0e6f0; */
 }
+
+/* .cont_wrapper {
+    padding-top: ;
+    background-image: url('images/book_back.png');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+} */
 
 .sw-main .sw-container {
     display: block;
@@ -136,7 +145,7 @@
 	font-size: 0;
 }
 .sw-theme-default > ul.step-anchor > li.done > a span i{
-	font-size: 18px;
+	font-size: 15px;
 }
 .sw-theme-default > ul.step-anchor > li.done > a span{
 	
