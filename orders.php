@@ -31,3 +31,5 @@ $response = curl_exec($ch);
 $decode = json_decode($response);
 $orderID = $decode->id;
 echo "$orderID";
+
+?>
