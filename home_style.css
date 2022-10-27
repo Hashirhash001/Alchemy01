@@ -20,11 +20,12 @@ a {
 
 .container1_home {
     display: grid;
-    grid-template-columns: 0.4fr 1.6fr;
+    grid-template-columns: 0.6fr 1.4fr;
     min-height: 80vh;
     min-width: 100vw;
     margin-top: 80px;
     background-image: linear-gradient(to top, #fac8cb, #f8c2c1);
+    /* background-color: white; */
 }
 
 .cover_image2 {
