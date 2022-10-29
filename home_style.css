@@ -9,8 +9,9 @@ a {
 }
 
 .font_home_head {
-    font-size: 60px !important;
+    font-size: 40px !important;
     letter-spacing: 0;
+    font-weight: 600 !important;
   }
 
   .font_home_head2 {
@@ -18,14 +19,58 @@ a {
     font-size: 42px;
   }
 
+  .arch_home2 {
+    position: absolute;
+    width: 500px;
+    height: 100%;
+    background-image: linear-gradient(to bottom, #f9d3d9, #f5e1e1);
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .arch_home_2 {
+    clip-path: circle(206% at 244% 102%);
+    height: 100%;
+    background-image: linear-gradient(to bottom, white, #f5e1e1);
+  }
+
 .container1_home {
     display: grid;
     grid-template-columns: 0.6fr 1.4fr;
-    min-height: 80vh;
+    min-height: 88vh;
     min-width: 100vw;
     margin-top: 80px;
-    background-image: linear-gradient(to top, #fac8cb, #f8c2c1);
+    /* background-image: linear-gradient(to top, #fac8cb, white); */
     /* background-color: white; */
+    background: white;
+}
+
+.text_box_home {
+    position: absolute !important;
+    left: -83px;
+    top: -50px;
+    z-index: 5500 !important;
+}
+
+@media (max-width:1350px) {
+    .text_box_home {
+        width: 550px;
+    }
+}
+
+.home_arch {
+    /* background-image: linear-gradient(to bottom ,rgba(249 217 222 / 100%) ,rgba(249 217 222 / 10%)); */
+    z-index: 5000;
+    margin-top: 45px;
+    background: #f9d3d9;
+    width: 500px;
+}
+
+.home_arch_cont {
+    /* background-image: linear-gradient(to top, #fac8cb, white); */
+    background: white;
+    clip-path: circle(118% at 161% 69%);
+    height: 100%;
 }
 
 .cover_image2 {
@@ -212,6 +257,10 @@ a {
     .font_home_head {
         font-size: 40px !important;
       }
+
+      .font_home_head {
+        text-align: center;
+      }
     
       .font_home_head2 {
         font-size: 22px !important;
@@ -248,6 +297,11 @@ a {
         gap: 50px;
     } 
 
+    .text_box{
+        position: unset !important;
+        width: 100%;
+    }
+
     .img_container1 {
         flex-direction: column;
     }
@@ -270,6 +324,10 @@ a {
         align-items: center;
         justify-content: center;
         gap: 50px;
+    }
+
+    .arch_home2 {
+        display: none;
     }
 
     .section_home3 {
@@ -305,7 +363,7 @@ a {
 }
 
 .section2_home {
-    background-image: linear-gradient(to bottom, #fac8cb, #f5e1e1);
+    background-image: linear-gradient(to bottom, white, #f5e1e1);
     min-height: 84vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -315,11 +373,12 @@ a {
 .home_cover1 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .home_img1 {
     width: 363px;
+    z-index: 5000;
 }
 
 .home_head1 {
