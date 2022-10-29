@@ -1295,7 +1295,12 @@ a {
     }
 
     .testim .cont div p {
-        font-size: 0.7em;
+        font-size: 1em;
+    }
+
+    .testim .dots .dot {
+        width: 6px;
+        height: 6px;
     }
 
     .home_head1 h1 {
