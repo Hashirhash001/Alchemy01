@@ -29,7 +29,8 @@ a {
   }
 
   .arch_home_2 {
-    clip-path: circle(206% at 244% 102%);
+    /* clip-path: circle(206% at 244% 102%); */
+    clip-path: circle(460px at 543px 379px);
     height: 100%;
     background-image: linear-gradient(to bottom, white, #f5e1e1);
   }
@@ -72,17 +73,18 @@ a {
 }
 
 .home_arch {
-    /* background-image: linear-gradient(to bottom ,rgba(249 217 222 / 100%) ,rgba(249 217 222 / 10%)); */
+    background-image: linear-gradient(to bottom ,#f9d3d9 ,white);
     z-index: 5000;
     margin-top: 45px;
-    background: #f9d3d9;
+    /* background: #f9d3d9; */
     width: 500px;
 }
 
 .home_arch_cont {
     /* background-image: linear-gradient(to top, #fac8cb, white); */
     background: white;
-    clip-path: circle(118% at 161% 69%);
+    /* clip-path: circle(118% at 161% 69%); */
+    clip-path: circle(777px at 1087px 233px);
     height: 100%;
 }
 
