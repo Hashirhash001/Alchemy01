@@ -34,6 +34,19 @@ a {
     background-image: linear-gradient(to bottom, white, #f5e1e1);
   }
 
+  .arch_image {
+    position: absolute;
+    z-index: 9000;
+    width: 160px;
+    height: 307px;
+  }
+
+  @media(max-width:1125px) {
+    .arch_image {
+        display: none;
+    }
+  }
+
 .container1_home {
     display: grid;
     grid-template-columns: 0.6fr 1.4fr;
