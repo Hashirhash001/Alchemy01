@@ -2016,7 +2016,7 @@ input:focus {
 @media (max-width: 490px) {
     .cover_image {
         background-size: contain;
-        background-position: center;
+        background-position: right;
         min-height: 50vh;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
