@@ -1,10 +1,26 @@
-<button id="rzp-button1">Pay with Razorpay</button>
+<button id="rzp-button1" onclick="makePayment()">Pay with Razorpay</button>
 <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<?php
+$name = $_POST['name'];
+$email = $_POST['email'];
+$number = $_POST['number'];
+$amount = $_POST['price'];
+?>
+
 <form name='razorpayform' action="verify.php" method="POST">
     <input type="hidden" name="razorpay_payment_id" id="razorpay_payment_id">
-    <input type="hidden" name="razorpay_signature"  id="razorpay_signature" >
+    <input type="hidden" name="razorpay_signature"  id="razorpay_signature">
+    <input type="hidden" name="name" value="<?php echo $name; ?>"  id="name">
+    <input type="hidden" name="email" value="<?php echo $email; ?>"  id="email">
+    <input type="hidden" name="number" value="<?php echo $number; ?>"  id="number">
+    <input type="hidden" name="price" value="<?php echo $amount; ?>"  id="amount">
 </form>
+
 <script>
+
+function makePayment() {
+
 // Checkout details as a json
 var options = <?php echo $json?>;
 
@@ -15,6 +31,10 @@ var options = <?php echo $json?>;
 options.handler = function (response){
     document.getElementById('razorpay_payment_id').value = response.razorpay_payment_id;
     document.getElementById('razorpay_signature').value = response.razorpay_signature;
+    // document.getElementById('name').value = response.name;
+    // document.getElementById('email').value = response.email;
+    // document.getElementById('number').value = response.number;
+    // document.getElementById('amount').value = response.price;
     document.razorpayform.submit();
 };
 
@@ -34,9 +54,12 @@ options.modal = {
 };
 
 var rzp = new Razorpay(options);
+rzp.open();
 
-document.getElementById('rzp-button1').onclick = function(e){
-    rzp.open();
-    e.preventDefault();
+// document.getElementById('rzp-button1').onclick = function(e){
+//     rzp.open();
+//     e.preventDefault();
+// }
+
 }
 </script>

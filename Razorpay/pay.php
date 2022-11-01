@@ -6,6 +6,11 @@ session_start();
 
 // Create the Razorpay Order
 
+$name = $_POST['name'];
+$email = $_POST['email'];
+$number = $_POST['number'];
+$amount = $_POST['price'];
+
 use Razorpay\Api\Api;
 
 $api = new Api($keyId, $keySecret);
@@ -16,7 +21,7 @@ $api = new Api($keyId, $keySecret);
 //
 $orderData = [
     'receipt'         => 3456,
-    'amount'          => 2000 * 100, // 2000 rupees in paise
+    'amount'          => $amount * 100, // 2000 rupees in paise
     'currency'        => 'INR',
     'payment_capture' => 1 // auto capture
 ];
@@ -47,13 +52,13 @@ if (isset($_GET['checkout']) and in_array($_GET['checkout'], ['automatic', 'manu
 $data = [
     "key"               => $keyId,
     "amount"            => $amount,
-    "name"              => "DJ Tiesto",
+    "name"              => $name,
     "description"       => "Tron Legacy",
     "image"             => "https://s29.postimg.org/r6dj1g85z/daft_punk.jpg",
     "prefill"           => [
     "name"              => "Daft Punk",
-    "email"             => "customer@merchant.com",
-    "contact"           => "9999999999",
+    "email"             => $email,
+    "contact"           => $number,
     ],
     "notes"             => [
     "address"           => "Hello World",

@@ -1,12 +1,18 @@
 <?php
 
 require('config.php');
+require('db.php');
 
 session_start();
 
 require('razorpay-php/Razorpay.php');
 use Razorpay\Api\Api;
 use Razorpay\Api\Errors\SignatureVerificationError;
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$number = $_POST['number'];
+$amount = $_POST['price'];
 
 $success = true;
 
@@ -38,8 +44,26 @@ if (empty($_POST['razorpay_payment_id']) === false)
 
 if ($success === true)
 {
-    $html = "<p>Your payment was successful</p>
-             <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
+            $payment_id = $_POST['razorpay_payment_id'];
+            $paid = 'Paid';
+            
+            // $email = $_POST['email'];
+            // $number = $_POST['number'];
+            // $amount = $_POST['price'];
+
+            // $html = "<p>Your payment was successful</p>
+            //  <p>Payment ID: {$_POST['razorpay_payment_id']}</p>";
+
+            $sql= "INSERT INTO razorpay_test(pay_id,name,email,phone_number,amount,pay_status) VALUES (?,?,?,?,?,?);";
+					$stmt = mysqli_stmt_init($conn);
+					mysqli_stmt_prepare($stmt, $sql);
+
+					mysqli_stmt_bind_param($stmt, "ssssss",$payment_id,$name,$email,$number,$amount,$paid);
+					mysqli_stmt_execute($stmt);
+					mysqli_stmt_close($stmt);
+                    header("Location: success.php?success=$succ");
+					exit();
+             
 }
 else
 {
