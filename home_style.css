@@ -75,7 +75,7 @@ a {
 .home_arch {
     background-image: linear-gradient(to bottom ,#f9d3d9 ,white);
     z-index: 5000;
-    margin-top: 45px;
+    /* margin-top: 45px; */
     /* background: #f9d3d9; */
     width: 500px;
 }
@@ -91,7 +91,8 @@ a {
 .cover_image2 {
     background-size: contain;
     background-position: center;
-    height: 550px;
+    height: 530px;
+    margin-top: 20px;
 }
 
 .serv_home_img {
