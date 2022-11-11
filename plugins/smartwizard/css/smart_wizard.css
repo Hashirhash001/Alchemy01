@@ -12,27 +12,12 @@
 
 /* SmartWizard Basic CSS */
 .sw-main {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    /* background: linear-gradient(to bottom, #cfc5eb, #def0fe); */
-    background: transparent;
-    opacity: 100%;
-    border-radius: 13px;
-    border-bottom-left-radius: 45px;
-    border-bottom-right-radius: 45px;
     position: relative;
     display: block;
     margin: 0;
     padding: 0;
     /* border: 5px solid #f0e6f0; */
 }
-
-/* .cont_wrapper {
-    padding-top: ;
-    background-image: url('images/book_back.png');
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: center;
-} */
 
 .sw-main .sw-container {
     display: block;
@@ -62,19 +47,27 @@
 
 .sw-theme-default .step-content {
     padding: 30px;
-    /* border:5px solid #F4F4F4;
-    background-color: #fff; */
-	margin: 30px 0;
+    /* border:5px solid #F4F4F4; */
+    background-color: rgba(209, 203, 228,0.5);
+	/* margin: 30px 0; */
     text-align: left;
+    
+}
+
+.gap_button {
+    gap: 30px;
+    padding-bottom: 30px;
 }
 
 .sw-theme-default .sw-toolbar {
-    /* background: #f9f9f9; */
+    background: rgba(209, 203, 228,0.6);
     border-radius: 0 !important;
     padding-left: 10px;
     padding-right: 10px;
     padding: 10px;
     margin-bottom: 0 !important;
+    border-bottom-left-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
 }
 
 .sw-theme-default .sw-toolbar-top {
@@ -88,16 +81,16 @@
 .sw-theme-default > ul.step-anchor > li {
     position: relative;
 	text-align: center;
+    margin: 10px
 }
 
 .sw-theme-default > ul.step-anchor > li > a, .sw-theme-default > ul.step-anchor > li > a:hover {
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     border: none !important;
     color: #404040;
-    border-radius: 10px;
     text-decoration: none;
     outline-style: none;
-    background: whitesmoke !important;
+    background: rgba(246,247,249,0.5) !important;
+    border-radius: 12px;
     border: none !important;
     cursor: not-allowed;
 	font-size: 18px;
@@ -110,9 +103,9 @@
 }
 .sw-theme-default > ul.step-anchor > li.active > a {
     border: none !important;
-    background: #d4b0e9  !important;
+    background: #e3ceef !important;
     cursor: pointer;
-	/* border-radius:0 !important; */
+	border-radius: 12px;
 	color:#fff;
 }
 
@@ -125,10 +118,9 @@
 .sw-theme-default > ul.step-anchor > li.done > a {
     border: none !important;
     color: #fff !important;
-    /* background: #ff5ea5 !important; */
-    background: #d4b0e9  !important;
+    background: #ff5ea5 !important;
     cursor: pointer;
-	/* border-radius:0 !important; */
+	border-radius:0 !important;
 }
 .sw-theme-default > ul.step-anchor > li > a span i{
 	font-size: 0;
@@ -145,7 +137,7 @@
 	font-size: 0;
 }
 .sw-theme-default > ul.step-anchor > li.done > a span i{
-	font-size: 15px;
+	font-size: 18px;
 }
 .sw-theme-default > ul.step-anchor > li.done > a span{
 	
@@ -158,12 +150,8 @@
 }
 
 .sw-theme-default > ul.nav-tabs {
-    border-radius: 15px;
-    gap: 40px;
-    background: #deebfb !important;
 	border-bottom: 0;
 	border: 1px solid rgba(0,0,0,0.1);
-    padding: 15px;
 }
 .sw-theme-default > ul.step-anchor > li.danger > a {
     border: none !important;
@@ -269,17 +257,16 @@
 	opacity:0;
 }
 .book-time .btn.active{
-	background-color: #55a1ff;
+	background-color:#ff5ea5;
 	color:#fff;
 }
 .book-time  .btn.active-time{
-	background-color: #ad6ad4;
+	background-color:#00becf;
 	font-weight:700;
 	color:#fff;
 }
 .sw-theme-default .bootstrap-select .btn.dropdown-toggle{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-	border-radius: 13px;
+	border-radius: 0;
 	border: 2px solid #e7ecf1 !important;
 	height:50px;
 	font-size:16px;
@@ -290,14 +277,18 @@
 	right: 14px;
 }
 .sw-theme-default .form-control{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    border-radius: 13px;
 	height: 50px;
 	font-size: 16px;
 	border: 2px solid #e7ecf1;
 	color:#707070;
 	padding:10px 15px;
 }
+.sw-theme-default input[type="checkbox"].form-control {
+	width: 5%;
+    height: unset !important;
+    display: unset;
+}
+
 .successful-check {
     width: 200px;
     height: 200px;
