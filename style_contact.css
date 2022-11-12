@@ -16,6 +16,11 @@
     transition: 0.5s;
 }
 
+@media (max-width: 450px){
+    .cursor {
+        display: none !important;
+    }
+}
 
 a {
     cursor: none !important;
