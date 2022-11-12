@@ -2078,6 +2078,7 @@ dl dd {
 label {
     font-weight: 600;
     margin-bottom: 10px;
+    cursor: none;
 }
 .panel-default,
 .panel-default > .panel-heading {
@@ -12439,6 +12440,7 @@ ol.commentlist li .star-rating {
 	padding-top:90px;
 	padding-bottom:80px;
     background-image: linear-gradient(to bottom ,rgb(218 246 255) ,#Cccc);
+    overflow: hidden;
     /* background-image: url('images/book_back.png');
     background-position: center;
     background-size: cover; */

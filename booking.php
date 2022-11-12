@@ -276,7 +276,7 @@
     
     </section>
     <!-- Footer END -->
-    <button class="scroltop fa fa-chevron-up"></button>
+    <!-- <button class="scroltop fa fa-chevron-up"></button> -->
   </div>
   <!-- JAVASCRIPT FILES ========================================= -->
   <script src="js/jquery.min.js"></script>
